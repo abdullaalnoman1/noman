@@ -1,0 +1,39 @@
+// node-sass --watch (scss Location) (css Location) (css Map)
+
+
+// Variable
+$nomanRed  : #f00f00;
+$nomanBlue : #1a54ac;
+
+
+// Nested
+.list {
+    ul {
+        padding: 0px;
+        margin : 0px;
+
+        li {
+            list-style: none;
+
+            a {
+                color: $nomanRed;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: $nomanBlue;
+                }
+
+                &.active {
+                    color: aqua;
+                }
+            }
+        }
+    }
+}
+
+.maintext {
+    p {
+        margin-bottom: 0px;
+    }
+}

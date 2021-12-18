@@ -1,0 +1,14 @@
+.list ul {
+  padding: 0px;
+  margin: 0px; }
+  .list ul li {
+    list-style: none; }
+    .list ul li a {
+      color: #f00f00; }
+      .list ul li a:hover, .list ul li a:focus, .list ul li a:active {
+        color: #1a54ac; }
+      .list ul li a.active {
+        color: aqua; }
+
+.maintext p {
+  margin-bottom: 0px; }
